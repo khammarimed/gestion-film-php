@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+h1{
+    font-family: "Poppins";
+}
+.logo{
+    width: 3em;
+}
+span{
+    margin-left: 8px;
+}
+
+.listf{
+   display: flex;
+   flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.card{
+    font-family: "Roboto";
+    max-width: 40em;
+    max-height: em;
+    margin: 1em;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    animation-delay: 0.2s;
+    
+    
+    border-radius: 0;
+    
+}
+.card .btn{
+   border-radius: 0;
+}
+.card:hover {
+   
+    
+    position: relative;
+    bottom: 10px;
+    
+}
+body{
+    
+    background-image: url(./img/bguser.jpg);
+    background-repeat:no-repeat ;
+    background-attachment: fixed;
+    width: 100%;
+    background-size: cover;
+}
+.nav{
+    height: 4em;
+    position: fixed;
+    z-index: 100;
+    background-color: #000000;
+    width: 100%;
+    font-family: "Poppins";
+    padding-left: 5em;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+    
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #000000;
+    overflow: hidden;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 60px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    cursor: pointer;
+  }
+  .compte{
+    position: relative;
+    left: 60%;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    border-bottom:5px solid #aa0404  ;
+    
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #aa0404;
+    color: white;
+  }
+  .slide{
+    
+    height: 45rem;
+    overflow: hidden;
+  }
+  .b{
+    height: 43em;
+    
+  }
+  .animated-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.animated-text span {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1s ease forwards;
+}
+
+.animated-text span:nth-child(1) {
+    animation-delay: 0.2s;
+    
+}
+.animated-text span:nth-child(2) {
+    animation-delay: 0.4s;
+}
+.animated-text span:nth-child(3) {
+    animation-delay: 0.6s;
+}
+.animated-text span:nth-child(4) {
+    animation-delay: 0.8s;
+}
+.animated-text span:nth-child(5) {
+    animation-delay: 1s;
+}
+.animated-text span:nth-child(6) {
+    animation-delay: 1.2s;
+}
+.animated-text span:nth-child(7) {
+    animation-delay: 1.4s;
+}
+.animated-text span:nth-child(8) {
+    animation-delay: 1.6s;
+}
+.animated-text span:nth-child(9) {
+    animation-delay: 1.8s;
+}
+.animated-text span:nth-child(10) {
+    animation-delay: 2s;
+}
+.animated-text span:nth-child(11) {
+    animation-delay: 2.2s;
+}
+.animated-text span:nth-child(12) {
+    animation-delay: 2.4s;
+}
+.animated-text span:nth-child(13) {
+    animation-delay: 2.6s;
+}
+.animated-text span:nth-child(14) {
+    animation-delay: 2.8s;
+}
+.animated-text span:nth-child(15) {
+    animation-delay: 3s;
+}
+.animated-text span:nth-child(16) {
+    animation-delay: 3.2s;
+}
+.animated-text{
+  font-family: "Roboto";
+  font-size: 3em;
+  justify-content: left;
+  color: azure;
+  padding-top: 3.5em;
+  padding-left: 1em;
+  width: 50%;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
